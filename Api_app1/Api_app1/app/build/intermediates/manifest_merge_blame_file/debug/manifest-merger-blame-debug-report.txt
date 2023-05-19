@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.api_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+19
+20    <queries>
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+21
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] C:\Users\blaaz\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.api_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] C:\Users\blaaz\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] C:\Users\blaaz\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.api_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] C:\Users\blaaz\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] C:\Users\blaaz\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:8:5-30:19
+33        android:allowBackup="true"
+33-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:9:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] C:\Users\blaaz\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:10:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:11:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:12:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:13:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.Api_app" >
+41-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:14:9-45
+42        <meta-data
+42-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:15:9-124
+43            android:name="com.google.android.geo.API_KEY"
+43-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:15:20-65
+44            android:value="AIzaSyAAcw7XAfhpDAw0roXVmINhFCMdeY5t7ps" />
+44-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:15:66-121
+45
+46        <activity
+46-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:17:9-19:40
+47            android:name="com.example.api_app.MapActivity"
+47-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:18:13-40
+48            android:exported="false" />
+48-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:19:13-37
+49        <activity
+49-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:20:9-29:20
+50            android:name="com.example.api_app.MainActivity"
+50-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:21:13-41
+51            android:exported="true" >
+51-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:22:13-36
+52            <intent-filter>
+52-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:24:13-28:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:25:17-69
+53-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:25:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:27:17-77
+55-->C:\Users\blaaz\OneDrive\Desktop\studia\mobilki\Api_app1\Api_app1\app\src\main\AndroidManifest.xml:27:27-74
+56            </intent-filter>
+57        </activity>
+58        <!-- Needs to be explicitly declared on P+ -->
+59        <uses-library
+59-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+60            android:name="org.apache.http.legacy"
+60-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+61            android:required="false" />
+61-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\blaaz\.gradle\caches\transforms-3\6de4f770fd0fc23af8366a0bf285c86e\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\blaaz\.gradle\caches\transforms-3\53207dac8a8df2118dd13aece775a512\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\blaaz\.gradle\caches\transforms-3\53207dac8a8df2118dd13aece775a512\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\blaaz\.gradle\caches\transforms-3\53207dac8a8df2118dd13aece775a512\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\blaaz\.gradle\caches\transforms-3\53207dac8a8df2118dd13aece775a512\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\blaaz\.gradle\caches\transforms-3\aa48c91a361697853c50874daf57bfd5\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\blaaz\.gradle\caches\transforms-3\aa48c91a361697853c50874daf57bfd5\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\blaaz\.gradle\caches\transforms-3\aa48c91a361697853c50874daf57bfd5\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\blaaz\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\blaaz\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+74            android:authorities="com.example.api_app.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\blaaz\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\blaaz\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\blaaz\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\blaaz\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\blaaz\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\blaaz\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\blaaz\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\blaaz\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+82        </provider>
+83    </application>
+84
+85</manifest>
